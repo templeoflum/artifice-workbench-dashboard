@@ -1,0 +1,112 @@
+{
+  "updatedAt": "2026-09-09T12:43:28.351197+00:00",
+  "scope": "All Artifice-named project folders found by recursive path search under /Users/donovan/work. Environments, caches, Git internals and generated package metadata excluded from counts. Git histories identified but historical checkouts are not separately audited.",
+  "versions": [
+    {
+      "id": "0",
+      "name": "Artifice Engine",
+      "root": "Artifice Engine",
+      "files": 577,
+      "python": 86,
+      "shaders": 59,
+      "tests": 16,
+      "references": 397,
+      "syntaxErrors": [],
+      "head": "c655264d524ee8526555e5aab865607b07eb4009",
+      "commits": "39",
+      "inventory": "/evidence/version-0.json"
+    },
+    {
+      "id": "1",
+      "name": "[archive] Artifice Engine v1",
+      "root": "[archive]/[archive] Artifice Engine v1",
+      "files": 513,
+      "python": 79,
+      "shaders": 7,
+      "tests": 16,
+      "references": 397,
+      "syntaxErrors": [],
+      "head": "256d3938cf8d235e93c1e7f03f5c15e97efe2d83",
+      "commits": "36",
+      "inventory": "/evidence/version-1.json"
+    },
+    {
+      "id": "2",
+      "name": "[archive] Artifice v2 (merged)",
+      "root": "[archive]/[archive] Artifice v2 (merged)",
+      "files": 88,
+      "python": 55,
+      "shaders": 31,
+      "tests": 0,
+      "references": 0,
+      "syntaxErrors": [],
+      "head": null,
+      "commits": "0",
+      "inventory": "/evidence/version-2.json"
+    },
+    {
+      "id": "3",
+      "name": "Artifice v3",
+      "root": "Artifice v3",
+      "files": 35,
+      "python": 24,
+      "shaders": 6,
+      "tests": 0,
+      "references": 0,
+      "syntaxErrors": [],
+      "head": "7e38a447efd6fed0a32e7f6df6c4114208bc3278",
+      "commits": "1",
+      "inventory": "/evidence/version-3.json"
+    }
+  ],
+  "overlap": [
+    {
+      "a": "Artifice Engine",
+      "b": "[archive]/[archive] Artifice Engine v1",
+      "same": 64,
+      "changed": 6,
+      "onlyA": 58,
+      "onlyB": 0
+    },
+    {
+      "a": "Artifice Engine",
+      "b": "[archive]/[archive] Artifice v2 (merged)",
+      "same": 0,
+      "changed": 19,
+      "onlyA": 109,
+      "onlyB": 67
+    },
+    {
+      "a": "Artifice Engine",
+      "b": "Artifice v3",
+      "same": 0,
+      "changed": 8,
+      "onlyA": 120,
+      "onlyB": 21
+    },
+    {
+      "a": "[archive]/[archive] Artifice Engine v1",
+      "b": "[archive]/[archive] Artifice v2 (merged)",
+      "same": 0,
+      "changed": 19,
+      "onlyA": 51,
+      "onlyB": 67
+    },
+    {
+      "a": "[archive]/[archive] Artifice Engine v1",
+      "b": "Artifice v3",
+      "same": 0,
+      "changed": 8,
+      "onlyA": 62,
+      "onlyB": 21
+    },
+    {
+      "a": "[archive]/[archive] Artifice v2 (merged)",
+      "b": "Artifice v3",
+      "same": 0,
+      "changed": 17,
+      "onlyA": 69,
+      "onlyB": 12
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "path": "09_NEEDS_REVIEW_OR_UNCATEGORIZED/glic remake.docx",
+    "sha256": "12feb66a01517b9643d2e30b0a53cf358cdac1d896f1def8fd610e0bf3f9c24f",
+    "status": "Concept document; not implementation evidence",
+    "bytes": 9692
+  },
+  {
+    "path": "_archive/root_originals/Artifice Engine_ A Vision for Next-Generation Glitch Art.docx",
+    "sha256": "2a19c4b78683986d0371bf17bc3ca454516d7f9d4b3a28eef2b6412dde860d18",
+    "status": "Concept document; not implementation evidence",
+    "bytes": 6203519
+  },
+  {
+    "path": "parsed_output/game_design/glic remake.json",
+    "sha256": "f5ee80abf839f50bdd5aa81c93d43f1fb9b40aa43eeb9ccef6346b5c9a07ad9a",
+    "status": "Concept document; not implementation evidence",
+    "bytes": 6749
+  },
+  {
+    "path": "parsed_output/design_language/Artifice Engine_ A Vision for Next-Generation Glitch Art.json",
+    "sha256": "e4d3faf60d88bf3f5eb99cf0d3dd90b1ee3b527bccb4b0d9cfba360f5aa89e19",
+    "status": "Concept document; not implementation evidence",
+    "bytes": 20121
+  }
+]

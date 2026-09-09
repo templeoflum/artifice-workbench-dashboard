@@ -1,0 +1,181 @@
+{
+  "root": "/Users/donovan/work/0000000/Artifice v3",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 218,
+      "sha256": "13b71e6e2f95f98b21bac48b545a7e3543cc6ba559cb54dcda48a058c2c83f37"
+    },
+    {
+      "path": "commands.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "debug_output.png",
+      "bytes": 2215,
+      "sha256": "e2e42faafd85921e7f3d18c3a482497f7750552234f8d1317187339103058d01"
+    },
+    {
+      "path": "launch.bat",
+      "bytes": 120,
+      "sha256": "aa16966dc2598900408822fa66b000f086f2b36010995aa0ba1c401a5970819f"
+    },
+    {
+      "path": "launch.py",
+      "bytes": 267,
+      "sha256": "100f44e84362e8061b9de09946a1bbac03fa045d3ecd27d044eba806fa296d2e"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 484,
+      "sha256": "273d90696954993d398497277ccb98419ea8e7638286c40aa4a464dbfa576fc7"
+    },
+    {
+      "path": "src/artifice/__init__.py",
+      "bytes": 303,
+      "sha256": "019edc0f6c693d09af8894a4fbee0ace7277a3f129d49e1f8e77bc81c39462f9"
+    },
+    {
+      "path": "src/artifice/__main__.py",
+      "bytes": 124,
+      "sha256": "a7bf029ad4719740470a6eb2c513e11cda1be7d69b102e4e63f0207586afbeea"
+    },
+    {
+      "path": "src/artifice/ui/__init__.py",
+      "bytes": 598,
+      "sha256": "db06e95354bfeda922e4e08c20a95e249280ead92db5577d17fa369948e7d78d"
+    },
+    {
+      "path": "src/artifice/ui/connection_item.py",
+      "bytes": 4030,
+      "sha256": "c139c902870e44b59795d273e52dc10b8159e1fafbde979c1cd03fb6bf2ad78f"
+    },
+    {
+      "path": "src/artifice/ui/glic_panel.py",
+      "bytes": 9048,
+      "sha256": "8469ba561d528ef11ee32d0ba32036f34afc0090eec52ac163574937298f9b8e"
+    },
+    {
+      "path": "src/artifice/ui/inspector.py",
+      "bytes": 10603,
+      "sha256": "390d1fe3facff0f9d2b2afd3dc13eca7b9de48d601628e741d1cee4c47c9ab70"
+    },
+    {
+      "path": "src/artifice/ui/node_editor.py",
+      "bytes": 22574,
+      "sha256": "5675b9a722e8727131a941cc78e048bb2e3be068aefc2d4b39f6598b06858b08"
+    },
+    {
+      "path": "src/artifice/ui/node_palette.py",
+      "bytes": 5575,
+      "sha256": "81583bf6f483f9a4374bd3962c33a6595fb28d52fb88f5977a841ea44faa0702"
+    },
+    {
+      "path": "src/artifice/ui/node_widget.py",
+      "bytes": 12929,
+      "sha256": "7db06642879e2e86e0c9582fa2331174140b52219796df29f9a0bd31885e284a"
+    },
+    {
+      "path": "src/artifice/ui/preview.py",
+      "bytes": 6195,
+      "sha256": "2fbc645bdd6b1958cd6d4180fb5e91ab16b67d1f6ad482876e1e05f0062785c9"
+    },
+    {
+      "path": "src/artifice/ui/window.py",
+      "bytes": 24732,
+      "sha256": "c93ed5bf52afc47ba3b8d618b7e2dd6596c36f9657e5c13099ad64fe7d867e98"
+    },
+    {
+      "path": "src/artifice/nodes/__init__.py",
+      "bytes": 569,
+      "sha256": "6ef7509bbb6b1a9d25c310b7882dc3b6c691e403aafc15b9f48617787e916fea"
+    },
+    {
+      "path": "src/artifice/nodes/glic.py",
+      "bytes": 19943,
+      "sha256": "11f0f5332915dc1ea40a11881c5513ea6700c0f33f44be528f9f843c912cc8dd"
+    },
+    {
+      "path": "src/artifice/nodes/image_io.py",
+      "bytes": 6424,
+      "sha256": "5f06b24bd11c0b829e7655f43f88191d30715d0c546b4e91b87003793029042f"
+    },
+    {
+      "path": "src/artifice/nodes/testcard.py",
+      "bytes": 2380,
+      "sha256": "9ef9ada4c822d385dacb1bcc3e78ded131ed062758dca6d06081afc5bad7002f"
+    },
+    {
+      "path": "src/artifice/shaders/glic/predict.glsl",
+      "bytes": 12070,
+      "sha256": "5aac4be1356b4179ab69491d37ed57b1afe5bcdcdadac06f85dcaaa91ce2847f"
+    },
+    {
+      "path": "src/artifice/shaders/glic/quantize.glsl",
+      "bytes": 2355,
+      "sha256": "1b963942a105b8eedc9237710e423f22f7f6f0bc9237a5cb7148141e17c664a3"
+    },
+    {
+      "path": "src/artifice/shaders/glic/reconstruct.glsl",
+      "bytes": 1994,
+      "sha256": "5cdceb7bad3b687dfe599d7f01ee051383f444843b9e32b539d95f4f88685305"
+    },
+    {
+      "path": "src/artifice/shaders/glic/residual.glsl",
+      "bytes": 2104,
+      "sha256": "2e30df7aea8ab273e44823e9fff847d746368d17ab82da0f239b797297fb3df7"
+    },
+    {
+      "path": "src/artifice/shaders/color/colorspace.glsl",
+      "bytes": 12449,
+      "sha256": "89b888392d2c5cd5825926ab3772f8fc60686591b3840c53946c4d020b02221b"
+    },
+    {
+      "path": "src/artifice/shaders/generators/testcard.glsl",
+      "bytes": 2563,
+      "sha256": "61dcf5ffd518826d7060ec8c4810a4be91d453d90bd55882d896d7ba2b8be2d9"
+    },
+    {
+      "path": "src/artifice/engine/__init__.py",
+      "bytes": 886,
+      "sha256": "eb0e0aeed042629aa1a0f0fb3c99e8d4775e8d0eed23c4285b609291fc6a768b"
+    },
+    {
+      "path": "src/artifice/engine/context.py",
+      "bytes": 2822,
+      "sha256": "a738d1d405ad4d68946c8bfa1bcf3f4d7c9dc8b023fc71664caedf16455837cf"
+    },
+    {
+      "path": "src/artifice/engine/graph.py",
+      "bytes": 13572,
+      "sha256": "5f8eaa63455d74e02119aadd332f22a23af68cf5a76b8ad41196002956808a28"
+    },
+    {
+      "path": "src/artifice/engine/node.py",
+      "bytes": 8386,
+      "sha256": "936e20b182fd325247ac421162969d4f0c1ad0b9edc826cf1f68c0f1508b3994"
+    },
+    {
+      "path": "src/artifice/engine/pipeline.py",
+      "bytes": 3472,
+      "sha256": "643e8b5c53e2c68e1d34afa9f131fa7ad5cf163965961247f33dccb3423e498d"
+    },
+    {
+      "path": "src/artifice/engine/port.py",
+      "bytes": 6522,
+      "sha256": "5225c6c6d26fe51f6a15e202b54eda8fed8ade80e35d666e0e254715a0035b00"
+    },
+    {
+      "path": "src/artifice/engine/registry.py",
+      "bytes": 1795,
+      "sha256": "9a11e72a95fbd9680dce4514ed6001d92777ba0bda38950c0546852dfb468b13"
+    },
+    {
+      "path": "src/artifice/engine/texture.py",
+      "bytes": 3086,
+      "sha256": "103c22e1af47aa790c2c0adeda373fe0342f891623b6936ac32b5469a315e2f8"
+    }
+  ],
+  "syntaxErrors": []
+}

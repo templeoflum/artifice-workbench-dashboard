@@ -1,0 +1,50 @@
+[
+  {
+    "version": "Artifice Engine",
+    "source": "src/artifice/nodes/quantization/quantize_node.py",
+    "sha256": "4615220a057476d0431f0d528be79c1587b6005e2e7d1358516ae157ecaddb97",
+    "method": "Executed unmodified quantize_value and dequantize_value function ASTs with NumPy; application imports excluded. Not an end-to-end app test.",
+    "input": [
+      -1.0,
+      -0.5,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "signedOneBitIntegers": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "signedOneBitFinite": false,
+    "signedOneBitNonfiniteCount": 5,
+    "signedEightBitFinite": true,
+    "signedEightBitMaxError": 0.0039370059967041016
+  },
+  {
+    "version": "[archive]/[archive] Artifice Engine v1",
+    "source": "src/artifice/nodes/quantization/quantize_node.py",
+    "sha256": "4615220a057476d0431f0d528be79c1587b6005e2e7d1358516ae157ecaddb97",
+    "method": "Executed unmodified quantize_value and dequantize_value function ASTs with NumPy; application imports excluded. Not an end-to-end app test.",
+    "input": [
+      -1.0,
+      -0.5,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "signedOneBitIntegers": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "signedOneBitFinite": false,
+    "signedOneBitNonfiniteCount": 5,
+    "signedEightBitFinite": true,
+    "signedEightBitMaxError": 0.0039370059967041016
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "path": "Artifice Engine/reference/GLIC.pdf",
+    "sha256": "604cd380c8b7109877aeee6b03b6b081daea68c520cad1230da950e7add9d806",
+    "bytes": 111689402
+  },
+  {
+    "path": "Artifice Engine/reference/documentation/GLIC_FEATURES_ROADMAP.md",
+    "sha256": "e44365ebd54eb489c0da616dc35cc6f6d0028991238ffbd2d17a4fae98f4f02f",
+    "bytes": 3991
+  },
+  {
+    "path": "Artifice Engine/reference/documentation/GLIC_text.txt",
+    "sha256": "fba6b00d8dae5c8c117b234a00ce04132acc2f689fd5664b2b08f89aaa9b17ba",
+    "bytes": 20516
+  },
+  {
+    "path": "Artifice Engine/reference/GLIC/predictions.pde",
+    "sha256": "a8d2c670d0ae5e89ddec3893bd999b51693f9d2d7116b6acef2561348c2ffa9d",
+    "bytes": 11277
+  },
+  {
+    "path": "Artifice Engine/reference/GLIC/segmentation.pde",
+    "sha256": "8c3c494da014a533e4f7be7f0b0be9b5d84651e827b82cc2481daaab3cf02324",
+    "bytes": 2597
+  },
+  {
+    "path": "Artifice Engine/reference/GLIC/quantization.pde",
+    "sha256": "6f5a5797f8a2b1b3d3ab0527c2d1197e8c87fd0c233a3cfeba0e24f40c5ca5a8",
+    "bytes": 394
+  },
+  {
+    "path": "Artifice Engine/reference/GLIC/README.md",
+    "sha256": "5ced4f1212c50abdce831168e01239abd0e88767b28790e79d0662d0e59130d1",
+    "bytes": 139
+  },
+  {
+    "path": "Artifice Engine/reference/GLIC/codec.pde",
+    "sha256": "6741eafad343bc6cc1abe1c8426206f75a529d394cbcfa70826f3d279762a7de",
+    "bytes": 26427
+  },
+  {
+    "path": "Artifice Engine/reference/GLIC/planes.pde",
+    "sha256": "784529983936f29bdb2b6ca65640f613d6863c4440f65cf11e475021bc49a177",
+    "bytes": 4402
+  },
+  {
+    "path": "Artifice Engine/reference/GLIC/GLIC.pde",
+    "sha256": "c1fedc630fa5ea14782e3adf075e8b70c31f27bedbca23d4d64e30f06d61dc0c",
+    "bytes": 3288
+  },
+  {
+    "path": "Artifice Engine/reference/GLIC/GUI.pde",
+    "sha256": "f6d6c519b1c3fd84077c6d48fea7f4f7d60621ea9eea2e1f4ff8d3dd1be1fbe7",
+    "bytes": 20519
+  },
+  {
+    "path": "Artifice Engine/reference/GLIC/transformation.pde",
+    "sha256": "64c22f84a3aff0a1742d37855d394d599dcf1683898133af104a64bd4a4bddbc",
+    "bytes": 7119
+  },
+  {
+    "path": "Artifice Engine/reference/GLIC/colorspaces.pde",
+    "sha256": "e546ba6bb7e27bb76b75dabd083b5076dac553f2f06bea8941f8962ab2245d0a",
+    "bytes": 19221
+  },
+  {
+    "path": "Artifice Engine/reference/GLIC/encoding.pde",
+    "sha256": "411cae2981dd9085fa9c90584f5124605094a0d2633dbfa9b06f3359a7c2559d",
+    "bytes": 372
+  }
+]
