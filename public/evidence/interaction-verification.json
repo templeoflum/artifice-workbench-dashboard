@@ -1,0 +1,15 @@
+{
+  "errors": [],
+  "scrubLast": true,
+  "playStopsAtEnd": true,
+  "looping": true,
+  "settingsReloadFrames": "12",
+  "sequenceExported": true,
+  "cancelRequested": true,
+  "mobileHorizontalOverflow": false,
+  "recallFocusAndViewport": true,
+  "pngFrames": 22,
+  "decodedPixelHashesExact": true,
+  "returnHashesExact": true,
+  "returnFramesIncludedInExportLimit": true
+}
