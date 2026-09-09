@@ -1,0 +1,25 @@
+{
+  "sources": [
+    {
+      "path": "/Users/donovan/work/0000000/Artifice Engine/reference/GLIC/predictions.pde",
+      "sha256": "a8d2c670d0ae5e89ddec3893bd999b51693f9d2d7116b6acef2561348c2ffa9d"
+    },
+    {
+      "path": "/Users/donovan/work/0000000/Artifice Engine/reference/GLIC/quantization.pde",
+      "sha256": "6f5a5797f8a2b1b3d3ab0527c2d1197e8c87fd0c233a3cfeba0e24f40c5ca5a8"
+    },
+    {
+      "path": "/Users/donovan/work/0000000/Artifice Engine/reference/GLIC/planes.pde",
+      "sha256": "784529983936f29bdb2b6ca65640f613d6863c4440f65cf11e475021bc49a177"
+    },
+    {
+      "path": "/Users/donovan/work/0000000/Artifice Engine/reference/GLIC/codec.pde",
+      "sha256": "6741eafad343bc6cc1abe1c8426206f75a529d394cbcfa70826f3d279762a7de"
+    },
+    {
+      "path": "/Users/donovan/work/0000000/Artifice Engine/reference/GLIC/segmentation.pde",
+      "sha256": "8c3c494da014a533e4f7be7f0b0be9b5d84651e827b82cc2481daaab3cf02324"
+    }
+  ],
+  "method": "Original selected method bodies compiled unchanged in Java adapter. Processing round(float), abs and constrain supplied via Java equivalents. Fixed segment list and no transforms/serialization. Tests do not qualify full GLIC codec."
+}

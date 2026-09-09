@@ -1,0 +1,8 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';import {processImage,defaults,validateDocument,diagnostic} from '../lib/artifice-core.mjs';
+const cases=JSON.parse((await import('node:zlib')).gunzipSync(fs.readFileSync(new URL('../public/evidence/oracle-fixtures.json.gz',import.meta.url))).toString('utf8'));for(const c of cases){const p=new Uint8ClampedArray(c.w*c.h*4);for(let y=0;y<c.h;y++)for(let x=0;x<c.w;x++){for(let k=0;k<3;k++)p[(y*c.w+x)*4+k]=(x*37+y*71+k*89+(x*y)%29)%256;p[(y*c.w+x)*4+3]=(x*17+y*3)%256;}
+const r=processImage(p,c.w,c.h,{block:c.block,predictors:[c.predictor,c.predictor,c.predictor],quant:[c.quant,c.quant,c.quant]});assert.deepEqual([...r.encoded],c.encoded);assert.deepEqual([...r.output].filter((_,i)=>i%4!==3),c.output);assert.deepEqual([...r.output].filter((_,i)=>i%4===3),[...p].filter((_,i)=>i%4===3));}
+const card=diagnostic();assert.deepEqual(processImage(card,512,512,defaults()).output,card);
+for(const s of [{...defaults(),block:0},{...defaults(),quant:[NaN,0,0]},{...defaults(),predictors:[1,0,0]}])assert.throws(()=>processImage(card,512,512,s));assert.throws(()=>validateDocument({}));
+console.log(JSON.stringify({referenceCases:cases.length,encodedAndOutputExact:true,alphaPreserved:true,diagnosticIdentity:true,invalidChecks:4}));
+const large=new Uint8ClampedArray(2000000*4);large.fill(127);assert.deepEqual(processImage(large,2000,1000,defaults()).output,large);assert.throws(()=>processImage(new Uint8ClampedArray(),4097,1,defaults()));assert.throws(()=>processImage(new Uint8ClampedArray(),2001,1000,defaults()));assert.throws(()=>processImage(new Uint8ClampedArray(3),1,1,defaults()));
+console.log(JSON.stringify({maximumAllowedIdentity:true,oversizedDimensionsRejected:true,malformedBufferRejected:true}));

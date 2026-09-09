@@ -1,0 +1,37 @@
+{
+  "release": "artifice-fixed-rgb-v1",
+  "referenceCases": 512,
+  "encodedAndOutputExact": true,
+  "referenceScope": "Four predictors, fixed blocks 8/16/32/64, four tiny/odd dimensions, eight quantization settings including bypass and negative rounding ties. Original method bodies in Java adapter. Not full codec equivalence.",
+  "oracleSHA256": "22be68d1439213e005df965888cf70504c222f37ba748b9d777ce4ca18783518",
+  "alphaPreserved": true,
+  "maximumAllowedIdentity": true,
+  "pngDecodedPixelHashMatches": true,
+  "browser": {
+    "errors": [],
+    "freshProjectReplay": true,
+    "imageImport": true,
+    "pngDownloaded": true,
+    "mobileHorizontalOverflow": false
+  },
+  "acceptance": {
+    "freshContextProjectReplay": true,
+    "invalidProjectRetainsImage": true,
+    "keyboardQuantization": true,
+    "benchmark": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "runs": 20,
+      "medianMs": 8,
+      "maxMs": 27.5,
+      "fixture": "512x512 RGBA bytes i%256; block16, H/V/Paeth, quant32/96/192"
+    }
+  },
+  "environment": "macOS arm64; headless Chrome 152; benchmark excludes image decode, worker startup and drawing",
+  "bufferEstimate": "At 2MP: ~92 MB of explicit simultaneous application/transfer pixel buffers, plus browser image/canvas/JSON overhead; not measured process peak.",
+  "limits": [
+    "RGB fixed-block subset only",
+    "No GLIC file import/export",
+    "Browser-normalized input; project preserves those pixels",
+    "No GPU or animation qualification"
+  ]
+}
