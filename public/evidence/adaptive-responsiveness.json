@@ -1,0 +1,101 @@
+{
+  "scope": "512x512 diagnostic in isolated local Chrome; worker round trip, excluding canvas paint",
+  "before": [
+    {
+      "total": 52.29999999701977,
+      "compute": 35.400000005960464
+    },
+    {
+      "total": 59.6000000089407,
+      "compute": 47
+    },
+    {
+      "total": 49.3999999910593,
+      "compute": 36.20000000298023
+    },
+    {
+      "total": 43.80000001192093,
+      "compute": 30.799999997019768
+    },
+    {
+      "total": 45.599999994039536,
+      "compute": 32.599999994039536
+    },
+    {
+      "total": 51.70000000298023,
+      "compute": 38.29999999701977
+    },
+    {
+      "total": 51.599999994039536,
+      "compute": 39.30000001192093
+    },
+    {
+      "total": 58,
+      "compute": 45.20000000298023
+    },
+    {
+      "total": 48.79999999701977,
+      "compute": 32.099999994039536
+    },
+    {
+      "total": 59.29999999701977,
+      "compute": 47.099999994039536
+    }
+  ],
+  "after": [
+    {
+      "total": 43.70000000298023,
+      "compute": 27
+    },
+    {
+      "total": 24,
+      "compute": 23.5
+    },
+    {
+      "total": 22.19999998807907,
+      "compute": 21.899999991059303
+    },
+    {
+      "total": 20.299999997019768,
+      "compute": 20
+    },
+    {
+      "total": 8,
+      "compute": 7.5
+    },
+    {
+      "total": 16,
+      "compute": 15.700000002980232
+    },
+    {
+      "total": 8,
+      "compute": 7.600000008940697
+    },
+    {
+      "total": 11.5,
+      "compute": 11.200000002980232
+    },
+    {
+      "total": 10.900000005960464,
+      "compute": 10.5
+    },
+    {
+      "total": 7.5,
+      "compute": 7
+    }
+  ],
+  "beforeMedianMs": 51.649999998509884,
+  "afterWarmMedianMs": 11.5,
+  "firstAfterMs": 43.70000000298023,
+  "checks": {
+    "cacheReuse": [
+      false,
+      true,
+      false,
+      false
+    ],
+    "exactPixelsAndTrees": true,
+    "latestAdjustmentSaved": true,
+    "modeSwitchPreservesSettings": true
+  }
+}

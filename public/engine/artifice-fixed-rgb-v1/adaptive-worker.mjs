@@ -1,0 +1,4 @@
+import {segmentImage,validateAdaptive} from './adaptive.mjs';
+import {reconstructBlocks,dimensions} from './artifice-core.mjs';
+let input,width,height,key,segmentation;
+self.onmessage=({data:d})=>{try{const start=performance.now();if(d.pixels){dimensions(d.width,d.height);input=new Uint8ClampedArray(d.pixels);width=d.width;height=d.height;if(input.length!==width*height*4)throw Error('Invalid pixels');key=undefined;}if(!input)throw Error('Source required');const s=validateAdaptive(d.settings),next=JSON.stringify([s.min,s.max,s.threshold,s.seed]),reused=next===key;if(!reused){segmentation=segmentImage(input,width,height,s);key=next;}const r=reconstructBlocks(input,width,height,s,segmentation.trees);self.postMessage({id:d.id,...r,...segmentation,reused,ms:performance.now()-start},[r.output.buffer,r.encoded.buffer,r.residual.buffer]);}catch(e){self.postMessage({id:d.id,error:String(e.message||e)});}};
