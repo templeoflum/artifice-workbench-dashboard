@@ -1,0 +1,56 @@
+{
+  "engine": "artifice-adaptive-rgb-xorshift32-v1",
+  "settings": {
+    "min": 8,
+    "max": 64,
+    "threshold": 35,
+    "seed": 42,
+    "predictors": [
+      2,
+      3,
+      9
+    ],
+    "quant": [
+      64,
+      96,
+      128
+    ]
+  },
+  "inputHash": "be90584d19d5769921a71c32f3b307058a725b447e0b7fe2048cb5011e70773f",
+  "outputHash": "b9d07e491c90b3ccb55514526d7e1232a482505569a955869f3b4728cf433949",
+  "treeHash": "0ac810c8ea9a6b840b246c61f8a3ddfd259e9c5334a7fbc59d8ea200ce72305b",
+  "leafCounts": [
+    1096,
+    1120,
+    1312
+  ],
+  "repeatOutputExact": true,
+  "benchmark": {
+    "runtime": "v22.23.2",
+    "platform": "darwin",
+    "scope": "Node CPU only; excludes decoding, drawing and browser frame pacing",
+    "diagnostic": {
+      "width": 512,
+      "height": 512,
+      "warmRuns": 10,
+      "medianMs": 13.533749999999998,
+      "maxMs": 18.274541
+    },
+    "maximumImage": {
+      "width": 2000,
+      "height": 1000,
+      "runs": 1,
+      "ms": 159.69066700000002,
+      "leafCounts": [
+        9277,
+        9425,
+        10604
+      ]
+    }
+  },
+  "performanceTarget": {
+    "fps": 60,
+    "frameBudgetMs": 16.666666666666668,
+    "status": "Unverified playback target. Processing timings alone do not establish display cadence."
+  }
+}
