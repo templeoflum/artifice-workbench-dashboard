@@ -1,0 +1,9 @@
+{
+  "errors": [],
+  "captureTwo": true,
+  "reloadRestores": true,
+  "reopenHashVerified": true,
+  "clearUndo": true,
+  "freshContextImport": true,
+  "corruptedImportPreservesSheet": true
+}
