@@ -1,0 +1,33 @@
+{
+  "scope": "Quantization motion between compatible saved variations; engine unchanged",
+  "interpolationFramesChecked": 158,
+  "endpointSettingsExact": true,
+  "incompatibleEndpointsRejected": true,
+  "browser": {
+    "errors": [],
+    "scrubLast": true,
+    "playStopsAtEnd": true,
+    "looping": true,
+    "settingsReloadFrames": "12",
+    "sequenceExported": true,
+    "cancelRequested": true,
+    "mobileHorizontalOverflow": false
+  },
+  "archive": {
+    "pngCount": 12,
+    "crcValid": true,
+    "decodedPixelHashesMatch": true,
+    "dimensions": [
+      512,
+      512
+    ],
+    "firstAndLastMatchSavedVariations": true
+  },
+  "limits": [
+    "Frame-count cap 120",
+    "Export cap 32 million total pixels",
+    "Target FPS is not measured preview FPS",
+    "Motion settings require matching variation sheet",
+    "No partial archive on cancellation by design; browser test requested cancellation but did not count downloads"
+  ]
+}

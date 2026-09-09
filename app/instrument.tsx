@@ -4,7 +4,7 @@ import {useEffect,useRef,useState} from 'react';
 import {Tabs,TabsList,TabsTrigger} from '@/components/ui/tabs';
 import {Switch} from '@/components/ui/switch';
 import {encodePNG} from '@/lib/png.mjs';
-import {Slider} from '@/components/ui/slider';
+import {Slider} from './labeled-slider';
 import {ENGINE,defaults,diagnostic,dimensions,validateDocument,validateSettings} from '@/lib/artifice-core.mjs';
 type Settings={block:number;predictors:number[];quant:number[]};
 type Source={pixels:Uint8ClampedArray;width:number;height:number;name:string};
