@@ -1,6 +1,6 @@
 # Adaptive segmentation reference contract — first expansion
 
-Status: 720 sample-tape reference comparisons pass (3,802 leaves). Split bits, ordered leaves, random-draw consumption and single pixel coverage match. An additional 432 seeded cases now match trees, draw counts, encoded values and reconstructed RGB using Artifice xorshift32. No adaptive image control is shipped yet.
+Status: 720 sample-tape reference comparisons pass (3,802 leaves). Split bits, ordered leaves, random-draw consumption and single pixel coverage match. An additional 432 seeded cases now match trees, draw counts, encoded values and reconstructed RGB using Artifice xorshift32. Adaptive controls, channel overlays, PNG export and project replay are now available.
 
 ## Observed retained behavior
 
@@ -31,7 +31,7 @@ Saved adaptive projects must include engine version, normalized source hash, set
 
 ## Next work
 
-Integrate the verified adaptive processor into the worker, controls, segmentation overlay and project replay. Color spaces, one transform, editable chains, broader motion and measured capacity follow as separate milestones. Incidental UI polish is parked.
+Next qualify selected color spaces as a separate processing capability. Color spaces, one transform, editable chains, broader motion and measured capacity follow as separate milestones. Incidental UI polish is parked.
 
 ## Retained file SHA-256
 
@@ -48,4 +48,4 @@ AdaptiveOracle.java embeds the retained Segment, makeSegmentation, encode-side s
 
 The new engine is artifice-adaptive-rgb-xorshift32-v1. A nonzero unsigned 32-bit seed initializes xorshift32 (left 13, unsigned right 17, left 5). Its upper 24 bits divided by 2^24 and multiplied by block size generate Float32 sample coordinates. This is an explicit Artifice sampler, not Processing random(). Seeds 1, 42, 2147483648 and 4294967295 were compared across 1×1, 23×13 and 64×33 images, all four supported predictors, three thresholds and three quantization settings: 432 cases. Java retains the original segmentation and prediction/quantization function bodies with a minimal sampler adapter. The production JavaScript engine shares reconstruction with the fixed processor; all 512 fixed reference cases remain passing.
 
-The diagnostic study retains the original image, adaptive output, red-channel tree overlay, exact settings, hashes and timings. Project/recipe integration and tree replay validation remain the next gate. 60 FPS is now an explicit measured playback target; current CPU timings exclude browser drawing and frame scheduling.
+The diagnostic study retains the original image, adaptive output, red-channel tree overlay, exact settings, hashes and timings. Adaptive project integration verifies regenerated tree decisions and output pixels before replacing the current image. Fixed-block recipes and variation sheets retain their existing format. 60 FPS is now an explicit measured playback target; current CPU timings exclude browser drawing and frame scheduling.

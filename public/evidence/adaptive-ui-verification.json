@@ -1,0 +1,10 @@
+{
+  "browser": "isolated Chrome",
+  "seedEdited": true,
+  "overlaySelected": true,
+  "savedAndReopened": true,
+  "alteredTreesRejected": true,
+  "mobileOverflow": false,
+  "decodedPNGHashMatchesProject": true,
+  "consoleErrors": []
+}
